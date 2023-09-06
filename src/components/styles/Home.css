@@ -1,0 +1,41 @@
+.first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    width: 50%;
+    height: 500px;
+    margin-left: 400px;
+    background-color: rgb(96, 146, 211);
+}
+
+.heading-div > h4{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+.form-div{
+    margin-top: 30px;
+}
+
+.form-div >h5{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+/* 
+.form-div >input{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.form-div >input:hover{
+    /* border-color: rgb(35, 213, 55); */
+    /* border-color: rgb(17, 211, 192); */
+/* } */
+
+.btn-div{
+    margin-right: 60px;
+}

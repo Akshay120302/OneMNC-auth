@@ -1,0 +1,335 @@
+.footer-logo{
+    margin-left: 2px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(116, 97, 97,0.85);
+    /* background-color: rgba(30, 30, 30, 0.85); */
+    height: 300px;
+    margin-left: -4px;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.row1{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(178, 202, 250);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    width: 127px;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: green;
+    color: white;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+footer .install .row img {
+    border: 1px solid rgb(80, 182, 80);
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+    margin-bottom: 8px;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+footer a:hover{
+    color: blue;
+    font-weight: 800;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;  
+}
+
+footer .col p{
+    margin: 4px 0;
+}
+
+footer .col a{
+    margin: 3px 0;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: rgb(99, 96, 96);
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install img{
+    margin: 0px;
+    
+}
+
+footer .install .rowNew img{
+    border: 1px solid rgb(80, 182, 80) ;
+    border-radius: 6px;
+}
+
+footer .install .rowNew img:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 8px gray;
+    transition: 0.3s;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .copyright img{
+    width: 2.5vh;
+
+}
+
+
+
+
+
+
+
+/* This is the part to make footer beautiful */
+/* 
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: white;
+    font-size: 16px;
+    margin: 2px;
+}
+
+#banner h2{
+    color: white;
+    font-size: 30px;
+}
+
+#banner h2 span{
+    color: red;
+}
+
+#banner button:hover{
+    background-color: rgb(76, 164, 151);
+    color: white;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    /* background-image: url(""); */
+    /* min-width: 580px;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+} 
+
+#sm-banner h4{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#sm-banner h2{
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#sm-banner span{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#sm-banner button:hover{
+    background-color: rgb(76, 164, 151);
+    color: white;
+}
+
+#sm-banner .banner-box2{
+    background-image: url("");
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("");
+    min-width: 27%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+} */
+
+/* #banner3 .banner-box2{
+    background-image: url("");
+}
+
+#banner3 .banner-box3{
+    background-image: url("");
+} */
+
+
+/* #banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 h2{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+#banner3 h3{
+    color: rgb(214, 28, 28);
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-image: url(""); */
+    /* background-repeat: no-repeat; */
+    background-position: 20% 30%;
+    background-color: rgb(77, 123, 169);
+    margin-left: -4px;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#newsletter p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(215, 196, 196);
+    font-family: sans-serif;
+}
+
+#newsletter p span{
+    color: rgb(221, 76, 76);
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+    gap: 3px;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0 ;
+}
+
+#newsletter button{
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0 ;
+    background-color: green;
+    color: white;
+}
+
+#newsletter button:hover{
+    background-color: rgb(68, 212, 104);
+    color: white;
+}
+
+/* p{
+    word-wrap: break-word;
+} */

@@ -1,0 +1,57 @@
+
+
+.modal-wrapper2{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgba(121, 118, 125, 0.7);
+}
+
+.modal-container2{
+    overflow-y: auto;
+    margin-top: 6px;
+    position: fixed;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    min-height: 810px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ul{
+    
+    width: 250px;
+    height: 700px;
+
+}
+
+.li{
+    width: 120px;
+    height: 22px;
+}
+
+.fa-bars{
+    margin-left: 26px;
+}
+
+.fa-xmark{
+    margin-left: 2px;
+}
+
+.fir{
+    background-color: #0000ff26;
+    text-align: center;
+    width: 275px;
+    height: 56px;
+}
+
+
+.menu{
+    margin: 4px;
+    width: 232px;
+    height: 500px;
+}

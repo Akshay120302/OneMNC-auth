@@ -1,0 +1,99 @@
+.card-container{
+    width: 260px;
+    height: 260px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-container:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container{
+    overflow: clip;
+    height: 20%;
+    width: 90%;
+}
+
+.image-container img{
+    height: auto;
+    width: 100%;
+}
+
+
+.card-content{
+    margin: 1rem;
+    max-height: 30%;
+    margin-top: -1.5rem;
+}
+
+.card-body {
+    margin-top: 0px;
+    width: 230px;
+    height: auto;
+    padding: 3px;
+    word-wrap: break-word;
+}
+
+h3,p{
+    /* resetting default value */
+    margin: 0;
+    padding: 0;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+}
+
+.btn-Card{
+
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #cec2ee;
+    background-color: rgb(55, 70, 156);
+}
+
+/* .btn-Card button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+} */
+
+.btn-Card button:hover{
+    background: rgba(27, 156, 253, 0.1);
+    transform: scale(1.1);
+}
+
+/* a{
+    text-transform: uppercase;
+    color: #1B9CFC;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.btnBox{
+    display: flex;
+    width: 80%;
+    margin-left: 25px;
+    position: static;
+    margin-top: 80px;
+}

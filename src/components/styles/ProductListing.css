@@ -1,0 +1,140 @@
+.btn{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #cec2ee;
+    background-color: rgb(55, 70, 156);
+}
+
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.product-container1{
+    margin: 20px 80px;
+    width: 1350px;
+    height: auto;
+    background-color: rgb(130 190 190);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.product-container{
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 20px 80px;
+    height: auto;
+    background-color: rgb(210, 217, 217);
+    border-radius: 10px;
+    
+}
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 55px;
+  width: 1230px;
+  height: auto;
+  min-height: 400px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin-bottom: 52px;
+}
+
+.center{
+    width: 1360px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav{
+  margin: 3px;
+  margin-top: 10px;
+  height: 70px;
+  width: 1513px;
+  background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 21px;
+  width: 500px;
+  margin-left: 900px;
+  margin-top: 12px;
+}
+
+li{
+  position: inherit;
+  list-style: none;
+  padding: 4px 10px;
+  font-size: 15px;
+  height: 30px;
+  width: 70px;
+  margin-left: 30px;
+  color: rgb(20, 5, 5);
+}
+
+.title{
+  margin: 3px;
+  align-self: center;
+  color: #882727;
+  font-size: 18px;
+}
+
+/* COde from repo*/
+/* 
+.card-container{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 3px 50px #A5A5A5;
+  }
+  
+  .card-wrapper{
+    width: 270px; 
+    height: 200px; 
+    box-shadow: 0px 3px 50px #A5A5A5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-top{
+    width: 100%;
+    height: 2%;
+  }
+  
+  .task-holder{
+    width: 100%;
+    height: 98%;
+    padding: 10px 10px;
+    display : flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .card-header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80px;
+    height: 30px;
+    padding: 1px 1px !important;
+    text-align: center;
+  }
+  
+  .task-container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F7F8;
+    padding : 40px 100px;
+  } */

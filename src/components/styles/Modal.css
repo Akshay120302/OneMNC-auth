@@ -1,0 +1,52 @@
+
+
+.modal-wrapper{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgba(121, 118, 125, 0.7);
+}
+
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    max-height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.input1{
+    margin: 10px;
+    width: 275px;
+}
+
+.input2{
+    margin: 10px;
+    width: 171px;
+}
+
+textarea{
+    margin: 2px 10px;
+    padding: 5px;
+    width: 310px;
+}
+
+.unit{
+    margin: 5px;
+    width: 60px;
+
+}
+
+/* span{
+    margin-left: 10px;
+} */
+
+input{
+    padding: 5px;
+}
