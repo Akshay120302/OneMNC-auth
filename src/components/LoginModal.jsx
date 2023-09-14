@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import './styles/Modal.css'
-import { User, useAuth0 } from "@auth0/auth0-react";
+import './styles/LoginModal.css'
+import 'font-awesome/css/font-awesome.min.css';
+import {useAuth0 } from "@auth0/auth0-react";
 
 // const Modal = () => {
 //     const[showModal,setShowModal]= useState(false);
@@ -90,25 +91,32 @@ import { User, useAuth0 } from "@auth0/auth0-react";
         // }
         
 
-        const handleSave = () => {
-            let taskObj = {}
-            taskObj["loginName"] = loginName
-            taskObj["Password"] = password
-            // taskObj["Image"] = imageUrl
-            save(taskObj)
-        }
-
-        // const imageSort = (index) => {
-        //     let imgObj = {}
-        //     imgObj["Image"] = imageUrl
-        //     save(imgObj)
+        // const handleSave = () => {
+        //     let taskObj = {}
+        //     taskObj["loginName"] = loginName
+        //     taskObj["Password"] = password
+        //     // taskObj["Image"] = imageUrl
+        //     save(taskObj)
         // }
-        const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
-        return (
-            <>
+        
+        // const imageSort = (index) => {
+            //     let imgObj = {}
+            //     imgObj["Image"] = imageUrl
+            //     save(imgObj)
+            // }
+            const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
+            return (
+                <>
             <div className="modal-wrapper"></div>
             <div className="modal-container">
-            <h4>List your Product</h4>
+
+                <div className="closebutton">
+                <i className="fa-solid fa-xmark" onClick={closeLoginModal}></i>
+                </div>
+                <div className="login">
+            
+                {isAuthenticated && <p><h4 className='centre'>{user.name}</h4>  </p>}
+            {/* <h4 className='centre'>Login/Signup</h4>
                 <br/>
 
                     
@@ -116,8 +124,9 @@ import { User, useAuth0 } from "@auth0/auth0-react";
                         <input type="text" className="input1" value = {loginName}
                         onChange={handleChange} name='loginName' required/>
                         <br/>
-                        <span>Password:</span>
-                        <input type="text" value={password} onChange={handleChange} name='Password' required/>
+                        <span>Password : </span>
+                        <input type="text" value={password} onChange={handleChange} name='Password' required/> */}
+                        
                         {/* <br/>
                         <span>Cost of Product</span>
                         <input type="integer" className="input2" required/>
@@ -126,26 +135,41 @@ import { User, useAuth0 } from "@auth0/auth0-react";
                         className='unit' required/>
                         <br/>
                         <label htmlFor="product-image">Product Image:</label>
-                        <input type="file" value = {imageUrl} id="product-image" onChange={handleChange} name="product-image" placeholder="Upload file..." />  */}
+                    <input type="file" value = {imageUrl} id="product-image" onChange={handleChange} name="product-image" placeholder="Upload file..." />  */}
                         
            
 
             {/* <button className="btn" onClick={handleSave}>Login</button> */}
 
-                        {isAuthenticated && <p> {user.name} </p>}
-
-                        {isAuthenticated ? (
+                
+                    {isAuthenticated ? (
                             <button className="btn" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
                             Log Out
                         </button>
-                        ) : (
-                            <button className="btn" onClick={() => loginWithRedirect()}>Log In</button>
+                        ) : (<>
+                        
+                        <h4 className='centre'>Login/Signup</h4>
+                <br/>
+
+                    
+                        <span>Login Name :</span>
+                        <input type="text" className="input" value = {loginName}
+                        onChange={handleChange} name='loginName' required/>
+                        <br/>
+                        <span>Password : </span>
+                        <input type="text" value={password} className='input' onChange={handleChange} name='Password' required/>
+                        <br/>
+
+                        <button className="btn" onClick={() => loginWithRedirect()}>Log In</button>
+                        
+                        </>
+                            
                         )
                     }
 
 
-            
-            <button className="btn" onClick={closeLoginModal}>Cancel</button>
+            </div>
+            {/* <button className="btn" onClick={closeLoginModal}>Cancel</button> */}
             </div>
             </>
           );        
