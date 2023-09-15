@@ -62,7 +62,7 @@ a{
     font-size: 25px;
 }
 
-ul{
+/* ul{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,9 +71,9 @@ ul{
   width: 500px;
   margin-left: 900px;
   margin-top: 12px;
-}
+} */
 
-li{
+/* li{
   position: inherit;
   list-style: none;
   padding: 4px 10px;
@@ -82,7 +82,7 @@ li{
   width: 70px;
   margin-left: 30px;
   color: rgb(20, 5, 5);
-}
+} */
 
 .title{
   margin: 3px;
@@ -143,7 +143,7 @@ li{
     
     .product-container1{
       margin: 16px 28px;
-      width: 320px;
+      width: 1375px;
       height: auto;
       background-color: rgb(130 190 190);
       border-radius: 10px;
@@ -152,15 +152,15 @@ li{
 
   .header {
     text-align: center;
-    margin-top: 100px;
-    margin-left: -201px;
+    margin-top: 20px;
+    margin-left: -10px;
 }
 
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
   margin: 12px 5px;
-  width: 290px;
+  width: 1343px;
   height: auto;
   min-height: 400px;
   background-color: #ffff;
