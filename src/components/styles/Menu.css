@@ -55,3 +55,27 @@
     width: 232px;
     height: 500px;
 }
+
+
+@media screen and (max-width:600px){
+    
+    .modal-container2 {
+        overflow-y: auto;
+        margin-top: 6px;
+        position: fixed;
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%,-50%);
+        width: 388px;
+        min-height: 691px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .fir {
+        background-color: #0000ff26;
+        text-align: center;
+        width: 204px;
+        height: 56px;
+    }
+}

@@ -77,3 +77,34 @@ textarea{
 input{
     padding: 5px;
 }
+
+@media screen and (max-width:600px){
+
+    .modal-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 333px;
+        max-height: 430px;
+        padding: 48px 84px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .login {
+        width: 275px;
+        height: auto;
+        margin: 10px;
+        margin-left: -64px;
+    }
+
+    .closebutton {
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        width: 73%;
+        margin-top: -43px;
+    }
+    
+}

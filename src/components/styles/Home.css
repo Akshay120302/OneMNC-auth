@@ -39,3 +39,34 @@
 .btn-div{
     margin-right: 60px;
 }
+
+@media screen and (max-width:600px){
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7%;
+        width: 65%;
+        height: 610px;
+        margin-left: 68px;
+        background-color: rgb(96, 146, 211);
+    }
+
+    .heading-div > h4 {
+        padding-left: 22px;
+        margin-top: 40px;
+    }
+
+    .heading-div > h2{
+        padding-left: 22px;
+        margin-top: -100px;
+    }
+
+    .form-div >h5 {
+        margin-left: 29px;
+        margin-top: 40px;
+    }
+
+}

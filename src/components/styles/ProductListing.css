@@ -138,3 +138,34 @@ li{
     background-color: #F6F7F8;
     padding : 40px 100px;
   } */
+
+  @media screen and (max-width: 600px) {
+    
+    .product-container1{
+      margin: 16px 28px;
+      width: 320px;
+      height: auto;
+      background-color: rgb(130 190 190);
+      border-radius: 10px;
+      padding: 10px;
+  }
+
+  .header {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -201px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 12px 5px;
+  width: 290px;
+  height: auto;
+  min-height: 400px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin-bottom: 52px;
+}
+
+  }

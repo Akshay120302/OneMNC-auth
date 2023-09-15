@@ -79,3 +79,66 @@ td {
 td {
   font-size: 1.4rem;
 }
+
+@media screen and (max-width:600px){
+  
+  .center {
+    width: 112px;
+    padding: 5px;
+    font-size: 0.6rem;
+}
+
+.MainPage {
+  width: 100%;
+  height: 593px;
+  background-color: rgb(255, 255, 255);
+  margin: 2px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 213px;
+}
+
+.recommend {
+  width: 113px;
+  min-height: 576px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 4px;
+  margin-top: 4px;
+  border: 2px solid;
+}
+
+.cartBox {
+  width: 245px;
+  min-height: 576px;
+  background-color: rgb(156, 215, 233);
+  margin-left: -209px;
+  margin-top: 4px;
+}
+
+table {
+  margin: 1rem auto;
+  border-radius: 2rem;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  width: 18rem;
+}
+
+thead {
+  font-size: 10px;
+  background-color: #443C68;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #443C68;
+  min-width: 1rem;
+  padding: 1rem;
+  font-size: 0.5rem;
+  line-height: 0.8;
+}
+
+}

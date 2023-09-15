@@ -82,3 +82,60 @@ li{
     color: rgb(20, 5, 5);
     text-wrap: nowrap;
 }
+
+@media screen and (max-width: 600px) {
+
+    .nav {
+        margin: 0px;
+        margin-top: 10px;
+        height: 40px;
+        width: 369px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .logo {
+        margin-left: 2px;
+        height: 40px;
+        width: 60px;
+    }
+
+    .navBar {
+        margin-left: 0px;
+        border-radius: 6px;
+        height: 22px;
+        width: 375px;
+        background-color: #d9d9d9;
+    }
+
+    .searchbar {
+        align-self: center;
+        width: 105px;
+        height: 22px;
+        padding: 10px;
+        border-radius: 7px;
+        margin-left: 4px;
+        border-color: rgb(157, 174, 251);
+    }
+
+    li {
+        position: inherit;
+        list-style: none;
+        padding: 4px 14px;
+        font-size: 9px;
+        height: 19px;
+        width: 57px;
+        margin-left: -19px;
+        color: rgb(20, 5, 5);
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        height: 21px;
+        width: 10px;
+        margin-left: 233px;
+        margin-top: 12px;
+    }
+}

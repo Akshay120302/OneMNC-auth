@@ -333,3 +333,65 @@ footer .copyright img{
 /* p{
     word-wrap: break-word;
 } */
+
+@media screen and (max-width:600px){
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(116, 97, 97,0.85);
+        /* background-color: rgba(30, 30, 30, 0.85); */
+        height: auto;
+        width: 379px;
+        margin-left: -4px;
+    }
+
+    footer .install img {
+        margin: 0px;
+        width: 98px;
+    }
+
+    .row1 {
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(178, 202, 250);
+        border-radius: 9px;
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+        width: 150px;
+    }
+
+    #newsletter {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        /* background-image: url((unknown)); */
+        /* background-repeat: no-repeat; */
+        background-position: 20% 30%;
+        background-color: rgb(77, 123, 169);
+        margin-left: -29px;
+        width: 404px;
+    }
+
+    footer .col{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        #newsletter input {
+            height: 3.125rem;
+            padding: 0 1.25em;
+            font-size: 14px;
+            width: 10rem;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            outline: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    
+}
