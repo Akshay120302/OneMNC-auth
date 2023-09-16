@@ -138,4 +138,9 @@ li{
         margin-left: 233px;
         margin-top: 12px;
     }
+
+    .fa-bars {
+        align-self: center;
+        margin-left: 14px;
+    }
 }

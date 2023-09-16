@@ -121,10 +121,10 @@ import './styles/Modal.css'
                         <textarea type="text" rows={5} cols={40} value={description} onChange={handleChange} name='productDes' required/>
                         <br/>
                         <span>Cost of Product</span>
-                        <input type="integer" className="input2" required/>
+                        <input type="integer" className="input3" required/>
                         <span>per</span>
                         <input type="text"
-                        className='unit' required/>
+                        className='unitModal' required/>
                         <br/>
                         <label htmlFor="product-image">Product Image:</label>
                         <input type="file" value = {imageUrl} id="product-image" onChange={handleChange} name="product-image" placeholder="Upload file..." /> 
