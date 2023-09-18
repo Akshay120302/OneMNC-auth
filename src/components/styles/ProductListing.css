@@ -1,4 +1,4 @@
-.btn{
+.btnP{
     margin: 20px;
     width: 150px;
     height: 40px;
@@ -141,7 +141,7 @@ a{
 
   @media screen and (max-width: 600px) {
     
-    .product-container1{
+  .product-container1{
       margin: 16px 18px;
     width: 338px;
     height: auto;

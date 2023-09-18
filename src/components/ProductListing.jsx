@@ -72,7 +72,7 @@ function ProductListing(props) {
 
             <div className="header">
                 <h3>Product List</h3>
-                <button className="btn" onClick={() => setShowModal(true)}>Add Products</button>
+                <button className="btnP" onClick={() => setShowModal(true)}>Add Products</button>
                 {showModal && <Modal closeModal={closeModal} save ={saveTask}/>}
 
             </div>

@@ -9,7 +9,7 @@
     background-color: rgba(121, 118, 125, 0.7);
 }
 
-.modal-container{
+.modal-container1{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -52,10 +52,82 @@ textarea {
 
 }
 
+.btn {
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #cec2ee;
+    background-color: rgb(55, 70, 156);
+}
+
 /* span{
     margin-left: 10px;
 } */
 
 input{
     padding: 5px;
+}
+
+@media screen and (max-width:600px){
+
+    .modal-container1 {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 333px;
+        max-height: 515px;
+        padding: 48px 52px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .input1 .input3 {
+        margin: 1px;
+        width: 275px;
+        border-color: black;
+        border-width: 3px;
+    }
+
+    textarea {
+        margin: 1px 10px;
+        padding: 5px;
+        width: 247px;
+        height: 66px;
+        border-color: black;
+        border-width: 3px;
+    }
+    
+    .Name .Descr .Cost .Per{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .Head{
+        font-size: 19px;
+        width: 200px;
+        margin-left: -19px;
+        margin-top: -24px;
+        font-weight: 600;
+    }
+
+    .unitModal {
+        margin: 5px;
+        width: 94px;
+        border-color: black;
+        border-width: 3px;
+    }
+
+    .btn {
+        margin: 10px 20px;
+        width: 74px;
+        height: 41px;
+        border-radius: 10px;
+        color: #cec2ee;
+        background-color: rgb(55, 70, 156);
+        font-size: 14px;
+    }
 }

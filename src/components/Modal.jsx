@@ -108,21 +108,21 @@ import './styles/Modal.css'
         return (
             <>
             <div className="modal-wrapper"></div>
-            <div className="modal-container">
-            <h4>List your Product</h4>
+            <div className="modal-container1">
+            <h4 className="Head">List your Product</h4>
                 <br/>
 
                     
-                        <span>Name of Product</span>
+                        <span className="Name">Name of Product</span>
                         <input type="text" className="input1" value = {taskName}
                         onChange={handleChange} name='productName' required/>
                         <br/>
-                        <span>Description of Product</span>
+                        <span className="Descr">Description of Product</span>
                         <textarea type="text" rows={5} cols={40} value={description} onChange={handleChange} name='productDes' required/>
                         <br/>
-                        <span>Cost of Product</span>
+                        <span className="Cost">Cost of Product</span>
                         <input type="integer" className="input3" required/>
-                        <span>per</span>
+                        <span className="Per">per</span>
                         <input type="text"
                         className='unitModal' required/>
                         <br/>
