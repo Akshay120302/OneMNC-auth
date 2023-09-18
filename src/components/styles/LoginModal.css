@@ -72,6 +72,11 @@ input{
     padding: 5px;
 }
 
+.fa-xmark {
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
 @media screen and (max-width:600px){
 
     .modal-container {
@@ -99,6 +104,11 @@ input{
         position: fixed;
         width: 73%;
         margin-top: -43px;
+    }
+
+    .fa-xmark {
+        margin-left: 2px;
+        margin-top: 0px;
     }
     
 }
