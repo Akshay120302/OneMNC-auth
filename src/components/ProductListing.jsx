@@ -70,4 +70,4 @@ function ProductListing(props) {
 };
 
 
-export default ProductListing
+export default ProductListing;

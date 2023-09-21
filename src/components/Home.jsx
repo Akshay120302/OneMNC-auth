@@ -10,15 +10,15 @@ const Home = () => {
       <div className="first-div">
 
         <div className="heading-div">
-          <h2>Welcome To Fresh Farms!</h2>
+          <h2>Welcome To OneMNC!</h2>
           <h4>Let's Get You Started</h4>
         </div>
 
         <div className="form-div">
-          <h5>Are you a Farmer or Customer?</h5>
+          <h5>Are you a Seller or Customer?</h5>
           <br />
           <Link to="/ProductListing">
-            <Button color="dark">Farmer</Button>
+            <Button color="dark">Seller</Button>
           </Link>
           <Link to="/Customer">
             <Button color="dark">Customer</Button>
