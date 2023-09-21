@@ -1,4 +1,4 @@
-import React , { useState} from 'react';
+import React, { useState } from 'react';
 import logo from './images/logo.png';
 import Menu from './Menu';
 import LoginModal from './LoginModal';
@@ -24,33 +24,32 @@ function Nav(props) {
   return (
     <>
 
-    <div className="nav">
-        <img className = "logo" src={logo} alt = ""/>
+      <div className="nav">
+        <img className="logo" src={logo} alt="" />
         <span className="title">One Mnc</span>
         <input className='searchbar' type="text" />
         <i className="fa-solid fa-magnifying-glass"></i>
-        {/* <i class="fa-sharp fa-solid fa-magnifying-glass fa-beat"></i> */}
-        <i className="fa-solid fa-cart-shopping" onClick={ () => navigate("/Cart")}></i>
+        <i className="fa-solid fa-cart-shopping" onClick={() => navigate("/Cart")}></i>
         <i className="fa-solid fa-user" onClick={() => setShowLoginModal(true)}></i>
-        {showLoginModal && <LoginModal closeLoginModal={closeLoginModal}/>}
-        <i className="fa-solid fa-bars" onClick={() => setShowMenu(true)}></i> 
-        {showMenu && <Menu closeMenu={closeMenu}/>}
-    </div>
+        {showLoginModal && <LoginModal closeLoginModal={closeLoginModal} />}
+        <i className="fa-solid fa-bars" onClick={() => setShowMenu(true)}></i>
+        {showMenu && <Menu closeMenu={closeMenu} />}
+      </div>
 
-    <div className="navBar">
+      <div className="navBar">
         <ul>
-            <Link to = "/">
-            <li >Home</li> {/*onMouseOver={openstyle} onMouseLeave={() => setShowMenu(false)}*/}
-            </Link>
-            <li >Group</li>
+          <Link to="/">
+            <li >Home</li>
+          </Link>
+          <li >Group</li>
 
-            <li>Products</li>
-          
-            <li>Tasks</li>
-            <li>Leader Board</li>
+          <li>Products</li>
+
+          <li>Tasks</li>
+          <li>Leader Board</li>
         </ul>
-    </div>
-    
+      </div>
+
     </>
   )
 }

@@ -20,7 +20,7 @@ function App() {
         <Route path='/Modal' element={<Modal/>} />
         <Route path='/Cart' element={<Cart/>} />
         <Route path='/Customer' element={<Customer title="One Mnc"/>} />
-        <Route path='/ProductListing' element={<ProductListing title="Farmers Site" navBar = "Home"/>} />
+        <Route path='/ProductListing' element={<ProductListing title="Sellers Site" navBar = "Home"/>} />
       </Routes>
     </Router>
     

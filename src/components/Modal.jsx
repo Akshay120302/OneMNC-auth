@@ -1,11 +1,5 @@
-// import React, {useState} from 'react'
-// import ProductListing from "./ProductListing"
 import { useEffect, useState } from 'react';
 import './styles/Modal.css'
-// const Modal = () => {
-//     const[showModal,setShowModal]= useState(false);
-
-//     const closeModal = () => setShowModal(false)
 
 const MyModal = ({ closeModal, save, index }) => {
 
