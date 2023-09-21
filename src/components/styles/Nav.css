@@ -75,7 +75,7 @@ ul{
 li{
     list-style: none;
     padding: 4px 10px;
-    position: relative;
+    position: inherit;
     font-size: 15px;
     height: 36px;
     width: 70px;
