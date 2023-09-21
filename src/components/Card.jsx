@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Card.css";
 
-const Card = ({ taskObj, index, imageUrl ,deleteTask}) => {
+const Card = ({ taskObj, data, index, imageUrl ,deleteTask}) => {
 
   const handleDelete = () => {
     deleteTask(index)
@@ -15,7 +15,7 @@ const Card = ({ taskObj, index, imageUrl ,deleteTask}) => {
     <div className="card-container">
       <div className="image-container">
         {/* <img src={taskObj.Image} alt="Loading..." /> */}
-            <img src = {taskObj.Image} key = {index} id = "image" alt="Uploaded" />
+            <img src = {data.image} key = {index} id = "image" alt="Uploaded" />
             {console.log(taskObj.Image)}
       </div>
 
