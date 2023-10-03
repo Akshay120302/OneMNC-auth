@@ -4,9 +4,10 @@ import Menu from './Menu';
 import LoginModal from './LoginModal';
 import 'font-awesome/css/font-awesome.min.css';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuth0 } from "@auth0/auth0-react";
 import './styles/Nav.css'
 
-function Nav(props) {
+function Nav() {
 
   const [showMenu, setShowMenu] = useState(false);
 
@@ -20,6 +21,8 @@ function Nav(props) {
 
   const navigate = useNavigate();
 
+  const { isAuthenticated, user } = useAuth0();
+
 
   return (
     <>
@@ -30,7 +33,11 @@ function Nav(props) {
         <input className='searchbar' type="text" />
         <i className="fa-solid fa-magnifying-glass"></i>
         <i className="fa-solid fa-cart-shopping" onClick={() => navigate("/Cart")}></i>
-        <i className="fa-solid fa-user" onClick={() => setShowLoginModal(true)}></i>
+        {isAuthenticated ? (
+        // <i className="fa-solid fa-user" onClick={() => setShowLoginModal(true)}></i>
+        <img src={user.picture} alt={user.name} className="profile" />
+                    ) : (
+        <i className="fa-solid fa-user" onClick={() => setShowLoginModal(true)}></i>)}
         {showLoginModal && <LoginModal closeLoginModal={closeLoginModal} />}
         <i className="fa-solid fa-bars" onClick={() => setShowMenu(true)}></i>
         {showMenu && <Menu closeMenu={closeMenu} />}
