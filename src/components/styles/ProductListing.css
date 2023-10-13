@@ -151,8 +151,9 @@ a{
   }
 
   .header {
-    text-align: center;
+    width: 352px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .cardContainer {
