@@ -82,10 +82,10 @@ td {
 
 @media screen and (max-width:600px){
   
-  .center {
-    width: 112px;
-    padding: 5px;
-    font-size: 0.6rem;
+.center {
+  width: 112px;
+  padding: 5px;
+  font-size: 0.6rem;
 }
 
 .MainPage {
