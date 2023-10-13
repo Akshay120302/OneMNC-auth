@@ -110,22 +110,23 @@ td {
 }
 
 .cartBox {
-    display: flex;
-    justify-content: center;
-    width: 245px;
-    min-height: 576px;
-    background-color: rgb(156, 215, 233);
-    margin-left: -210px;
-    margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  min-height: 576px;
+  background-color: rgb(156, 215, 233);
+  margin-left: -210px;
+  margin-top: 4px;
 }
 
 
 table {
-    margin: 1rem auto;
-    border-radius: 1rem;
-    border: 1rem hidden #443C68;
-    box-shadow: 0 0 0 1px black;
-    overflow: hidden;
+  display: flow;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  border: 1rem hidden #443C68;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
 }
 
 

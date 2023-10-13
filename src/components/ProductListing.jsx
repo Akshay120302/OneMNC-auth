@@ -63,6 +63,7 @@ function ProductListing(props) {
                 </div>
 
             </div>
+            <br />
             <Footer />
 
         </>

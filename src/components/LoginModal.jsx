@@ -3,7 +3,7 @@ import './styles/LoginModal.css'
 import 'font-awesome/css/font-awesome.min.css';
 import { useAuth0 } from "@auth0/auth0-react";
 
-const MyLoginModal = ({ closeLoginModal, save, index }) => {
+const MyLoginModal = ({ closeLoginModal,index }) => {
 
     useEffect(() => {
 

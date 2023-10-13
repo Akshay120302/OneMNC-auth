@@ -16,9 +16,7 @@ function Nav() {
   const [showLoginModal, setShowLoginModal] = useState(false);
 
   const closeLoginModal = () => setShowLoginModal(false);
-
-
-
+  
   const navigate = useNavigate();
 
   const { isAuthenticated, user } = useAuth0();
