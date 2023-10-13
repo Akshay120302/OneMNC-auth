@@ -175,23 +175,23 @@ marquee{
         flex-direction: column;
         gap: 10px;
         height: auto;
-        margin: 77px 3px 3px;
+        margin: 77px 0px 3px;
         padding: 4px;
-        width: 369px;
+        width: 354px;
     }
 
     .imgScroller {
         background-color: #f1f6f6;
         border-radius: 10px;
         height: 140px;
-        margin-left: -3px;
+        margin-left: -1px;
         margin-top: 4px;
-        width: 367px;
+        width: 347px;
     }
 
     .table {
         height: 400px;
-        width: 370px;
+        width: 353px;
         border: 1px solid rgb(255, 255, 255);
         background-color: rgb(32 33 36);
         display: grid;

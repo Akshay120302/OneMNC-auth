@@ -343,7 +343,7 @@ footer .copyright img{
         background-color: rgba(116, 97, 97,0.85);
         /* background-color: rgba(30, 30, 30, 0.85); */
         height: auto;
-        width: 379px;
+        width: 358px;
         margin-left: -4px;
     }
 
@@ -367,12 +367,11 @@ footer .copyright img{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        /* background-image: url((unknown)); */
         /* background-repeat: no-repeat; */
         background-position: 20% 30%;
         background-color: rgb(77, 123, 169);
         margin-left: -29px;
-        width: 404px;
+        width: 383px;
     }
 
     footer .col{
